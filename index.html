@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-Means Elbow Chart Demo</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>K-Means Clustering & Elbow Chart Demo</h1>
+    <button id="regen-btn">Generate New Points</button>
+  </header>
+  <div class="container">
+    <div class="plot-section">
+      <h2>K-Means Clustering</h2>
+      <div id="cluster-plot" class="plot"></div>
+    </div>
+    <div class="elbow-section">
+      <h2>Elbow Chart</h2>
+      <div id="elbow-chart" class="plot"></div>
+    </div>
+  </div>
+  <footer>
+    <p>Made with <span style="color:#e25555">&#9829;</span> using Plotly.js</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

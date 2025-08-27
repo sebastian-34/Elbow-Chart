@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 32px 0 10px 0;
+  background: rgba(255,255,255,0.7);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  font-size: 2.2rem;
+  color: #2d3a4b;
+  letter-spacing: 1px;
+}
+
+#regen-btn {
+  background: linear-gradient(90deg, #36d1c4 0%, #5b86e5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(91,134,229,0.12);
+  transition: background 0.2s, transform 0.1s;
+}
+#regen-btn:hover {
+  background: linear-gradient(90deg, #5b86e5 0%, #36d1c4 100%);
+  transform: scale(1.04);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px 0 30px 0;
+  gap: 32px;
+}
+
+.plot-section, .elbow-section {
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(91,134,229,0.10);
+  padding: 28px 24px 24px 24px;
+  margin: 0;
+  min-width: 640px;
+}
+
+.plot-section h2, .elbow-section h2 {
+  color: #3a4a5d;
+  margin-top: 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+.plot {
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+  background: #f6fafd;
+  box-shadow: 0 2px 8px rgba(91,134,229,0.07);
+}
+
+footer {
+  text-align: center;
+  color: #6c7a89;
+  font-size: 1rem;
+  padding: 18px 0 10px 0;
+  background: none;
+  letter-spacing: 0.5px;
+}
